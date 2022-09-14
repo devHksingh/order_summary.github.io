@@ -1,0 +1,192 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap");
+
+/* CSS Reset  */
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Remove default margin */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+figure,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+/* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
+ul[role="list"],
+ol[role="list"] {
+  list-style: none;
+}
+
+/* Set core root defaults */
+html:focus-within {
+  scroll-behavior: smooth;
+}
+
+/* Set core body defaults */
+body {
+  min-height: 100vh;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+}
+
+/* A elements that don't have a class get default styles */
+a:not([class]) {
+  text-decoration-skip-ink: auto;
+}
+
+/* Make images easier to work with */
+img,
+picture {
+  max-width: 100%;
+  display: block;
+}
+
+/* Inherit fonts for inputs and buttons */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+/* Remove all animations, transitions and smooth scroll for people that prefer not to see them */
+@media (prefers-reduced-motion: reduce) {
+  html:focus-within {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+:root {
+  --pale-blue: hsl(225, 100%, 94%);
+  --very-pale-blue: hsl(225, 100%, 98%);
+  --desaturated-blue: hsl(224, 23%, 55%);
+  --dark-blue: hsl(223, 47%, 23%);
+  --bright-blue: hsl(245, 75%, 52%);
+  --bright-blue-hover: hsl(244, 83%, 68%);
+}
+body {
+  background-image: url("./images/pattern-background-mobile.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: var(--pale-blue);
+  font-size: 1rem;
+  font-family: "Red Hat Display", sans-serif;
+}
+.container {
+  border-bottom: 1px solid #fff;
+  max-width: 450px;
+  width: 80vw;
+  margin: 0 auto;
+  margin-top: 10vh;
+  border-radius: 20px;
+  background-color: #fff;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+    rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+.hero_img {
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  margin-bottom: 2.2em;
+  width: 100%;
+}
+.title {
+  color: var(--dark-blue);
+  text-align: center;
+  font-weight: 900;
+  font-size: 1.4rem;
+}
+.order_description {
+  line-height: 1.563em;
+  padding: 1.4em;
+  text-align: center;
+  color: hsl(0, 0%, 58%);
+  font-weight: 500;
+  max-width: 88%;
+  margin: 0 auto;
+}
+.plan_container {
+  max-width: 88%;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 1.8em;
+  margin-bottom: 1.2em;
+  padding: 1em;
+  background-color: var(--very-pale-blue);
+  border-radius: 20px;
+}
+.plan_name {
+  font-weight: 900;
+}
+.plan_price {
+  color: hsl(0, 0%, 58%);
+}
+.change_btn {
+  font-size: 0.8rem;
+  align-self: center;
+  font-weight: 700;
+  color: var(--bright-blue);
+}
+.change_btn:focus,
+.change_btn:hover {
+  color: var(--bright-blue-hover);
+}
+ 
+.procced_btn,
+.cancel_btn {
+  display: block;
+  text-decoration: none;
+  text-align: center;
+}
+
+.procced_btn {
+  border-radius: 10px;
+  margin: 0 1.8em;
+  margin-bottom: 1.7em;
+  padding: 0.6em;
+  font-weight: 900;
+  color: #fff;
+  background-color: var(--bright-blue);
+  box-shadow: 0 20px 30px -8px rgb(197 189 245);
+}
+.procced_btn:focus,
+.procced_btn:hover {
+  background-color: var(--bright-blue-hover);
+}
+.cancel_btn {
+  background-color: white;
+  color: var(--desaturated-blue);
+  font-weight: 900;
+  margin-bottom: 2em;
+}
+.cancel_btn:focus,
+.cancel_btn:hover {
+  color: black;
+}
+
+@media (min-width: 700px) {
+  body {
+    background-image: url("./images/pattern-background-desktop.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+}
