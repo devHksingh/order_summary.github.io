@@ -1,6 +1,6 @@
 # Frontend Mentor - Order summary card solution
 
-This is a solution to the [Order summary card challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/order-summary-component-QlPmajDUj). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is a solution to the [Order summary card challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/order-summary-component-QlPmajDUj).
 
 ## Table of contents
 
@@ -16,7 +16,6 @@ This is a solution to the [Order summary card challenge on Frontend Mentor](http
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
 
 ## Overview
 
@@ -34,7 +33,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/devHksingh/order_summary)
+- Solution URL: [order_summary](https://github.com/devHksingh/order_summary)
 
 
 ## My process
@@ -49,7 +48,6 @@ Users should be able to:
 - Responsive design
 
 
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
 
 ### What I learned
 
@@ -58,13 +56,13 @@ As a Responsive design, I used the units em ,%,rem,vh,vw.
 
 
 
-**Note: Delete this note and the content within this section and replace with your own learnings.**
+
 
 ### Continued development
 
 A more in-depth focous on Box-Shadow and Responsive design.
 
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
+
 
 ### Useful resources
 
@@ -77,7 +75,5 @@ A more in-depth focous on Box-Shadow and Responsive design.
 - linkedin - [Harshit Kumar Singh](https://www.linkedin.com/in/harshitkrsingh)
 - Frontend Mentor - [@devHksingh](https://www.frontendmentor.io/profile/yourusername)
 - Twitter - [@harshit_dev_](https://www.twitter.com/harshit_dev_)
-
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
 
 
