@@ -34,7 +34,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [order_summary](https://github.com/devHksingh/order_summary)
-
+- Live Site URL: [order_summary](https://devhksingh.github.io/order_summary.github.io/)
 
 ## My process
 
@@ -51,7 +51,7 @@ Users should be able to:
 
 ### What I learned
 
-The majaor things I've learned were writing Box Shadow , Mobile-first workflow and Responsive design.
+The major things I've learned were writing Box Shadow , Mobile-first workflow and Responsive design.
 As a Responsive design, I used the units em ,%,rem,vh,vw.
 
 
@@ -60,7 +60,7 @@ As a Responsive design, I used the units em ,%,rem,vh,vw.
 
 ### Continued development
 
-A more in-depth focous on Box-Shadow and Responsive design.
+A more in-depth focus on Box-Shadow and Responsive design.
 
 
 
